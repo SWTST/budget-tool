@@ -1,97 +1,20 @@
-**Income**
 
-INC_SAL Salary & wages
-INC_BEN Benefits
-INC_INT Interest
-INC_REF Refunds/Rebates
+## Transaction Types
 
-**Housing & Utilities**
+**BGC – Bank Giro Credit**
+Money coming in that was paid in over the counter / via a credit slip (often a cash or cheque deposit). 
 
-HOU_RENT Rent / Mortgage
-HOU_CTAX Council Tax
-UTL_ELEC Electricity
-UTL_GAS Gas
-UTL_WATR Water
-UTL_BBND Broadband
-UTL_MOB Mobile
-UTL_TVLC TV Licence
+**DD – Direct Debit**
+A company pulls money from your account under a mandate you set up (bills, subs, charities…). Amount and date are usually controlled by the company. 
 
-**Food**
+**DEB – Debit card transaction**
+You paid with your card (chip & PIN, contactless, sometimes online) and it’s posted as a card debit. 
 
-FOO_GROC Groceries
-FOO_EAT Eating out / Takeaway / Coffee
+**FPI – Faster Payment Incoming**
+A bank transfer to you — someone (or you, from another account) sent you money via Faster Payments. Near-instant. 
 
-**Transport**
+**FPO – Faster Payment Outgoing**
+A bank transfer from you to someone else, via Faster Payments. Also near-instant. 
 
-TRN_FUEL Fuel
-TRN_PUB Public transport
-TRN_PARK Parking & tolls
-TRN_MAIN Vehicle maintenance
-TRN_MOT MOT / Vehicle tax
-
-**Insurance**
-
-INS_HOME Home/Contents
-INS_AUTO Car
-INS_LIFE Life/Health/Travel (use per need)
-
-**Health & Fitness**
-
-HLT_PHAR Prescriptions/Pharmacy
-HLT_DENT Dentist/Optician
-HLT_GYM Gym/Fitness
-
-**Subscriptions & Media**
-
-SUB_STRM Streaming (Netflix/Spotify/etc.)
-SUB_SOFT Software/Cloud storage
-SUB_GAME Gaming
-
-**Shopping & Home**
-
-SHP_CLOT Clothing
-SHP_ELEC Electronics
-SHP_HOME Home & garden
-
-**Entertainment & Hobbies**
-
-ENT_EVT Events/Days out
-ENT_HOB Hobbies (add ENT_CLMB if you want a Climbing subcat!)
-
-**Savings & Investments**
-
-SAV_XFER Savings transfers
-INV_ISA Stocks & Shares ISA
-INV_GEN General investments
-INV_PEN Pension contributions
-
-**Debt & Fees**
-
-DBT_INT Credit card interest
-DBT_FEES Bank/FX/ATM fees
-
-**Gifts, Charity & Education**
-
-GFT_CHR Gifts & Charity
-EDU_CRS Courses/Certs/Books
-
-**Pets**
-
-PET_FOOD Food/Accessories
-PET_VET Vet/Insurance
-
-**Holidays & Travel**
-
-HOL_FLT Flights
-HOL_HTL Hotels
-HOL_ACT Activities
-HOL_INS Travel insurance
-
-**Transfers (neutral – exclude from spend)**
-
-TRF_IN Self-to-self incoming (FPI/BGC from your other accounts)
-TRF_OUT Self-to-self outgoing (FPO/SO to your other accounts)
-
-**Miscellaneous**
-
-MSC_ONE One-off / Uncategorized (temporary holding)
+**SO – Standing Order**
+A fixed, regular payment you set up yourself (same amount/schedule unless you change it) — e.g. rent to landlord, savings to another account. Different from DD because you control it. 
