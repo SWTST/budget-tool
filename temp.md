@@ -1,6 +1,3 @@
-
-
-
 ## Budget Categories with Cascade Foreign Key
 
 CREATE TABLE dbo.BudgetCategory (
